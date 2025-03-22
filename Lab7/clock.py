@@ -26,6 +26,8 @@ while True:
             pg.quit()
             exit()
     
+    
+    
     curtime = dt.datetime.now()
     minutes = curtime.minute
     seconds = curtime.second

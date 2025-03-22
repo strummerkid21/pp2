@@ -10,7 +10,7 @@ print(multiply_list(nums))
 
 
 
-# number of upper case letters and lower case letters
+# number of upper case letters and lower case letterss
 def count_case(text):
     upper = sum(1 for char in text if char.isupper())
     lower = sum(1 for char in text if char.islower())
